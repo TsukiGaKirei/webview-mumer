@@ -42,8 +42,8 @@ const RoomDataTable = ({  data }) => {
                 <Td>{item?.last_updated}</Td>
               </Tr>
               <Tr>
-                <Td>Last Updated By</Td>
-                <Td>{item?.last_updated_by===0?"":item?.last_updated_by}</Td>
+                <Td>Count Person</Td>
+                <Td>{item?.count_person}</Td>
               </Tr>            
             </Tbody>
           </Table>
